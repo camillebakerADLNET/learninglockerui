@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonasImportForm should render the form in STAGE_CONFIGURE_FIELDS 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="1descriptionInput"
+    >
+      Name
+    </label>
+    <input
+      className="form-control"
+      id="1descriptionInput"
+      placeholder="Short title of this import"
+      value="1 title"
+    />
+  </div>
+  <withProps(Connect(WithModel))
+    className="configureUpload"
+    model={
+      Immutable.Map {
+        "_id": "1",
+        "title": "1 title",
+        "importStage": "STAGE_CONFIGURE_FIELDS",
+        "updatedAt": "2017-10-31T06:06:06Z",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`PersonasImportForm should render the form in STAGE_IMPORTED 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="1descriptionInput"
+    >
+      Name
+    </label>
+    <input
+      className="form-control"
+      id="1descriptionInput"
+      placeholder="Short title of this import"
+      value="1 title"
+    />
+  </div>
+  <div
+    className="stageImported"
+  >
+    <withProps(Connect(WithModel))
+      className="configureUpload"
+      disabled={true}
+      model={
+        Immutable.Map {
+          "_id": "1",
+          "title": "1 title",
+          "importStage": "STAGE_IMPORTED",
+          "importedAt": "2017-10-31T06:06:06Z",
+        }
+      }
+    />
+    <blockquote>
+      <h4>
+        Imported on 
+        Tue 31 Oct 2017 7:06:06
+      </h4>
+      <p>
+        <b>
+          Merged: 
+          0
+           personas
+          <br />
+        </b>
+        <b>
+          Created: 
+           new personas
+          <br />
+        </b>
+      </p>
+    </blockquote>
+  </div>
+</div>
+`;
+
+exports[`PersonasImportForm should render the form in STAGE_UPLOAD 1`] = `
+<div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="1descriptionInput"
+    >
+      Name
+    </label>
+    <input
+      className="form-control"
+      id="1descriptionInput"
+      placeholder="Short title of this import"
+      value="1 title"
+    />
+  </div>
+  <withState(Connect(withState(withHandlers(InitialUploadComponent))))
+    className="initialUpload"
+    model={
+      Immutable.Map {
+        "_id": "1",
+        "title": "1 title",
+        "importStage": "STAGE_UPLOAD",
+        "updatedAt": "2017-10-31T06:06:06Z",
+      }
+    }
+  />
+</div>
+`;

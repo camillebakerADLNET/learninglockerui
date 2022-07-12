@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasicQueryBuilder -> Range Criterion render 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
+    >
+      <div
+        className="btn btn-default btn-xs"
+      >
+        <div
+          className=""
+        >
+          &gt;
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="ion-arrow-up-b"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <input
+      max={1}
+      min="0"
+      onChange={[Function]}
+      step={0.1}
+      type="number"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`BasicQueryBuilder -> Range Criterion with value 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
+    >
+      <div
+        className="btn btn-default btn-xs"
+      >
+        <div
+          className=""
+        >
+          &gt;
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="ion-arrow-up-b"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <input
+      max={1}
+      min="0"
+      onChange={[Function]}
+      step={0.1}
+      type="number"
+      value=""
+    />
+  </div>
+</div>
+`;

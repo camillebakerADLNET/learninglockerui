@@ -1,0 +1,25 @@
+{
+  "verbose": true,
+  "rootDir": ".",
+  "testMatch": [
+    "<rootDir>/ui/src/**/*.(spec).{js,jsx,ts,tsx}",
+    "<rootDir>/ui/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+  ],
+  "moduleDirectories": ["node_modules", "src"],
+  "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
+  "modulePathIgnorePatterns": ["<rootDir>/dist/"],
+  "moduleNameMapper": {
+    "^api(.*)$": "<rootDir>/api/src$1",
+    "^ui(.*)$": "<rootDir>/ui/src$1",
+    "^worker(.*)$": "<rootDir>/worker/src$1",
+    "^cli(.*)$": "<rootDir>/cli/src$1",
+    "^lib(.*)$": "<rootDir>/lib$1",
+
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/ui/__mocks__/fileMock.js",
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+  },
+  "transform": {
+    "^.+\\.(js|jsx)$": "babel-jest"
+  }, 
+  "setupFilesAfterEnv": ["<rootDir>/ui/setupTests.js"]
+}

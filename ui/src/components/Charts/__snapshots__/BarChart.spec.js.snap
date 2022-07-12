@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarChart should render 1`] = `
+<h4
+  style={
+    Object {
+      "marginTop": 20,
+      "textAlign": "center",
+      "width": "100%",
+    }
+  }
+>
+  No data in this time range.
+</h4>
+`;
+
+exports[`BarChart should render axes 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  />
+  <div
+    className="clearfix"
+  />
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      Y-Axis
+    </div>
+    <div
+      className=""
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <span
+      className=""
+    >
+      X-Axis
+    </span>
+  </div>
+</div>
+`;

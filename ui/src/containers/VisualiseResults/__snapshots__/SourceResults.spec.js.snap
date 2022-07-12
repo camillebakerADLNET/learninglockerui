@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SourceResults should render 1`] = `
+<wrappedSourceResults
+  axes={
+    Immutable.Map {
+      "xLabel": "the-x-label",
+    }
+  }
+  labels={
+    Immutable.List [
+      "series 1",
+    ]
+  }
+  results={
+    Immutable.List [
+      Immutable.List [
+        Immutable.Map {
+          "0": Immutable.Map {
+            "count": 5,
+            "model": "monday",
+            "_id": "monday",
+          },
+        },
+      ],
+    ]
+  }
+/>
+`;

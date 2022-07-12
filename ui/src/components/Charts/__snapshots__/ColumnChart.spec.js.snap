@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColumnChartResult should render axes 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      THE-Y
+    </div>
+    <div
+      className=""
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <span
+      className=""
+    >
+      THE-X
+    </span>
+  </div>
+</div>
+`;

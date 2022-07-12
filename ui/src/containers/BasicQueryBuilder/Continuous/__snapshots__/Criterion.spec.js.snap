@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasicQueryBuilder -> Continuous Criterion should render criterion with value 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      tabIndex={0}
+    >
+      <div
+        className="btn btn-default btn-xs"
+      >
+        <div
+          className=""
+        >
+          &gt;
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="ion-arrow-up-b"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      <div
+        data-react-toolbox="date-picker"
+      >
+        <div
+          className="dp-input dp-input"
+          data-react-toolbox="input"
+        >
+          <input
+            className="dp-inputElement undefined"
+            disabled={false}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            readOnly={true}
+            required={false}
+            role="input"
+            type="text"
+            value="30 October 1986"
+          />
+          <span />
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="btn btn-default btn-xs"
+    onClick={[Function]}
+  >
+    <i
+      className="ion-minus-round"
+    />
+  </button>
+</div>
+`;
